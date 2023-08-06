@@ -1,0 +1,61 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+#links{
+    width: 20%; /* Anpassen der Breite nach Bedarf */
+    border: 2px white solid;
+    padding: 10px;
+    margin: 15px;
+    h3{
+        text-align: center;
+    }
+
+    &:hover{
+        background-color:  rgba(0,0,0,0.1);
+    }
+    
+}
+
+#rechts{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    #zeilen{
+        margin-left: 25%;
+        margin-right: 25%;
+        &:hover{
+            background-color:  rgba(0,0,0,0.2);
+        }
+    }
+
+    #me{
+    display: flex;
+    justify-content: space-between;
+
+        #meLinks{
+            width: 50%;
+            text-align: left;
+            p:hover{
+                background-color:  rgba(0,0,0,0.2);
+            }
+             
+        }
+
+        #meRechts{
+            width: 50%;
+            text-align: left;
+            p:hover{
+                background-color:  rgba(0,0,0,0.2);
+            }
+        }
+        
+        hr{
+            color: white;
+        }
+        
+    }
+    
+}

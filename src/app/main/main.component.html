@@ -1,0 +1,61 @@
+<div id="container">
+    <div id="links">
+      <h3>Foto</h3>
+      <p id="bild">{{bild}}</p>
+    </div>
+  
+    <div id="rechts">
+        <h1>Zu mir</h1>
+        <br>
+
+        <div id="me">
+            <div id="meLinks">
+                <p id="name">Name: {{name}}</p>
+                <p id="str">Strasse: {{str}}</p>
+                <p id="plz">PLZ: {{plz}}</p>
+                <p id="geburtsdatum">Geburtsdatum: {{geburtsdatum}}</p>
+                <p id="sternzeichen">Sternzeichen: {{sternzeichen}}</p>
+                <p id="familienstand">Familienstand: {{familienstand}}</p>
+                <p id="tel">Telefonnummer: {{tel}}</p>
+                <hr>
+            </div>
+
+
+            <div id="meRechts">
+                <p id="vorname">Vorname: {{vorname}}</p>
+                <p id="hausnummer">Hausnummer: {{hausnummer}}</p>
+                <p id="ort">Ort: {{ort}}</p>
+                <p id="geburtsort">Geburtsort: {{geburtsort}}</p>
+                <p id="nationatilat">Nationalität: {{nationatilat}}</p>
+                <p id="auto">Führerschein: {{auto}}</p>
+                <p id="email">Email: {{email}}</p>
+                <hr>
+            </div>
+
+        </div>
+        <div id="zeilen">
+            <p id="beruf">Beruflicher Weg:<br></p>
+            <p *ngFor="let beruf of berufArray">{{ beruf }}</p>
+        </div>
+        <br>
+
+        <div id="zeilen">
+            <p id="sprachen">Mit folgenden Sprachen kann ich Kommunizieren:<br></p>
+            <p *ngFor="let sprache of sprachenArray">{{ sprache }}</p>
+        </div>
+        <br>
+
+        <div id="zeilen">
+            <p id="kenntnisse">Meine Kenntnisse: <br></p>
+            <p *ngFor="let kenntnisse of kennArray">{{ kenntnisse }}</p>
+        </div>
+        <br>
+
+        <div id="zeilen">
+            <p id="hobbies">Meine Hobbies: <br></p>
+            <p *ngFor="let hobbies of hobbiesArray">{{ hobbies }}</p>
+        </div>
+
+    </div>
+</div>
+  

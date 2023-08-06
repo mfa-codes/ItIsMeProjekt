@@ -1,0 +1,14 @@
+footer{
+    margin-top: 2%;
+    border-top: 2px white solid;
+    text-align: center;
+    padding-top: 10px;
+
+    .footerinfos{
+        p:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    
+}
